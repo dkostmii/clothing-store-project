@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "clothing-store-database", "clothing-store-database\clothing-store-database.ssmssqlproj", "{D341AD4B-B535-4C7D-84E6-6F32E96CC96F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D341AD4B-B535-4C7D-84E6-6F32E96CC96F}.Default|Default.ActiveCfg = Default
+		{793C6553-DB1D-4977-910A-5A433F5B917F}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94A42B1F-CC55-419E-9F36-4D4695C449EE}
+	EndGlobalSection
+EndGlobal
