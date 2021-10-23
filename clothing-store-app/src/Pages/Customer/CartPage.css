@@ -1,0 +1,43 @@
+.cart-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 48px;
+
+  margin-top: 108px;
+}
+
+.cart-page-container > .title, .cart-page-container > .title-empty {
+  display: flex;
+  gap: 24px;
+
+  font-size: 1rem;
+}
+
+.cart-page-container > .title-empty {
+  flex-direction: column;
+}
+
+.title-empty > label {
+  font-weight: 300;
+  font-style: italic;
+  color: #888;
+}
+
+.cart-page-container .red-invert-button {
+  color: #d9372b;
+  border-color: #d9372b;
+}
+
+.cart-page-container .red-invert-button:hover {
+  background: #d9372b;
+  border: none;
+  color: #FFF;
+}
+
+.cart-positions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

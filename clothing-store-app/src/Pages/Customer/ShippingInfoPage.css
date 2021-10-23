@@ -1,0 +1,33 @@
+.shipping-info-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: calc(100vh - 30px - 96px * 2);
+  width: calc(100vw - 30px);
+
+  margin: 96px 0;
+}
+
+.shipping-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+
+.shipping-info-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 8px;
+}
+
+.shipping-info-wrapper > div label ~ label {
+  margin-left: 12px;
+  font-size: 1.1em;
+  font-weight: 300;
+  font-style: italic;
+}

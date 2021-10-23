@@ -1,0 +1,80 @@
+.products-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.products-page-container > .products {
+  width: 45%;
+}
+
+.products-page-container > .title-container {
+  padding: 0 108px 0 108px;
+  margin: 2.8em 0 1.4em 0;
+  width: 100%;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.icon-button {
+  background: none;
+  width: 64px;
+  height: 64px;
+
+  cursor: pointer;
+  border: none;
+}
+
+.icon-button > .icon {
+  font-size: 48px;
+}
+
+.icon-button:hover {
+  width: 76px;
+  height: 76px;
+}
+
+.icon-button:hover > .icon {
+  font-size: 56px;
+}
+
+.return-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.8em;
+  font-weight: 300;
+  font-style: italic;
+
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.return-link .icon {
+  font-size: 0.8em;
+}
+
+.return-link:hover {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.return-link:hover .icon {
+  font-size: 1em;
+}
+
+.products-page-container .red-invert-button {
+  color: #d9372b;
+  border-color: #d9372b;
+}
+
+.products-page-container .red-invert-button:hover {
+  background: #d9372b;
+  border: none;
+  color: #FFF;
+}
